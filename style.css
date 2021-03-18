@@ -26,6 +26,32 @@ header {
     background-color: cornflowerblue;
     width: 20%;
     height: 100px;
-    float: left;
     margin: 150px 50px;
+}
+
+.main_titles { 
+    background-color: darkcyan ;
+    height: 100px;
+    width: 100%;
+}
+
+aside {
+    height: 300px;
+    width: 20%;
+    background-color: deepskyblue;
+}
+
+.main_article {
+    height: 300px;
+    width: 60%;
+    background-color: navy;
+}
+
+/* Utility */
+.float {
+    float: left
+}
+
+.columns {
+    width: 100%;
 }
