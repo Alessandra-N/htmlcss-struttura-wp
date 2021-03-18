@@ -26,6 +26,6 @@ header {
     background-color: cornflowerblue;
     width: 20%;
     height: 100px;
-    float: left
-    
+    float: left;
+    margin: 150px 50px;
 }
