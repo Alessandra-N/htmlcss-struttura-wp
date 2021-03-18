@@ -10,11 +10,32 @@
     content: "";
 }
 
+/* Centratura */
+
+body {
+    width: 90%;
+    margin: auto;
+}
+
 /* css header and footer*/
 
 header, footer {
     background-color: aqua;
     height: 100px;
+}
+
+.logo, .menu {
+    height: 40px;
+    width: calc(100% - 10px);
+    margin: 5px;
+}
+
+.logo {
+    background-color: orangered;
+}
+
+.menu {
+    background-color: olive;
 }
 
 /* css center img with title */
